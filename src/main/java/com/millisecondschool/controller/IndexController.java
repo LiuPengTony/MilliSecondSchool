@@ -14,7 +14,6 @@ public class IndexController {
 
     @RequestMapping("/first")
     public ModelAndView first(HttpServletRequest request){
-        
         ModelAndView view = new ModelAndView("index");
         return view;
     }
