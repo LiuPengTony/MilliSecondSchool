@@ -1,10 +1,7 @@
 package com.millisecondschool.controller;
 
-import com.alibaba.fastjson.JSONObject;
-import com.millisecondschool.service.TestService;
-import com.millisecondschool.utils.HttpClientUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -16,8 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 @Slf4j
 public class IndexController {
 
-    @Autowired
-    private TestService testService;
+    @Value("${baiduAK}")
+    private String baiduAK;
 
     @RequestMapping("/first")
     public ModelAndView first(HttpServletRequest request) {
@@ -31,8 +28,8 @@ public class IndexController {
     }
 
     @RequestMapping("/test2")
-    public void test2(){
-        String s = testService.testConfig();
-        System.out.println(s);
+    public String test2(){
+        System.out.println(baiduAK);
+        return baiduAK;
     }
 }

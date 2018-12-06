@@ -73,4 +73,6 @@
         <property name="prefix" value="/pages/" />
         <property name="suffix" value=".jsp" />
     </bean>
+
+    <context:property-placeholder ignore-unresolvable="true" location="classpath:config.properties" />
 </beans>
