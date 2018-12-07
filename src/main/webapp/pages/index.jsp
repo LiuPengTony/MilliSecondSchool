@@ -17,16 +17,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <title>暄桐教室 - 传统美学教育教室</title>
-    <meta name="keywords" content="
-书法,写字,书法课,书法零基础,美育,临帖,暄桐,暄桐教室,林曦,林糊糊,ask林曦,儿童书法,齐白石,丰子恺,小世界,闹事集,文人" />
-    <meta name="description" content="暄桐是一间教室，基于中式文人审美，教授以书法为主的传统文化与技艺，推崇非功利的学习态度。教室认为写字是一种生活方式，师生共同以书法为原点延展深入传统与艺术的种种乐趣，探索着心手相应，知行合一的可能。" />
+    <title>毫秒学院 - java学习好助手</title>
+    <meta name="keywords" content="java,毫秒,java学习,java零基础,java培训,java初级培训,转行学java,线上java培训" />
+    <meta name="description" content="毫秒学院是一家线上java培训机构，颠覆传统线下java培训重运营重资产模式，以线上直播的方式来传授java知识，力图做java学习者的好帮手好助手" />
     <meta content="27gb98wt6guBkYY44-Qa98pH0BSMTr1YyZymBGk4UmY" name="csrf-token" />
     <meta content="0" name="is-login" />
     <meta content="1" name="is-open" />
 
-    <link rel="icon" href="../img/1715440981cd077006.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="../img/1715440981cd077006.png" type="image/x-icon" media="screen" />
+    <link rel="icon" href="../img/95f4ce96129dc2f865547bf89fb719c3.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/95f4ce96129dc2f865547bf89fb719c3.png" type="image/x-icon" media="screen" />
 
     <!--[if lt IE 9]>
     <script src="../js/html5shiv.js"></script>
@@ -124,65 +123,65 @@
                     <ul class="nav navbar-nav">
 
                         <li class="">
-                            <a href="http://www.xuantong.cn/" target="_blank">首页 </a>
+                            <a href="#" target="_blank">首页 </a>
                         </li>
                         <li class="nav-hover">
-                            <a href="http://xuantong.cn/course/explore">课程 <b class="caret"></b></a>
+                            <a href="#">课程 <b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="http://xuantong.cn/course/explore" target="_blank">单阶课程</a>
+                                    <a href="#" target="_blank">单阶课程</a>
                                 </li>
                                 <li>
-                                    <a href="http://xuantong.cn/classroom/explore" target="_blank">全阶课程</a>
+                                    <a href="#" target="_blank">全阶课程</a>
                                 </li>
                                 <li>
-                                    <a href="http://www.xuantong.cn/page/guidepc2" target="_blank">报名指南</a>
+                                    <a href="#" target="_blank">报名指南</a>
                                 </li>
                                 <li>
-                                    <a href="http://www.xuantong.cn/page/guidepc3" target="_blank">听课指南</a>
+                                    <a href="#" target="_blank">听课指南</a>
                                 </li>
                                 <li>
-                                    <a href="http://www.xuantong.cn/page/QA" target="_blank">常见问题解答</a>
+                                    <a href="#" target="_blank">常见问题解答</a>
                                 </li>
                                 <li>
-                                    <a href="http://www.xuantong.cn/page/workPC" target="_blank">提交作业&amp;下载资料指南</a>
+                                    <a href="#" target="_blank">提交作业&amp;下载资料指南</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="">
-                            <a href="http://xuantong.cn/open/course/explore" target="_blank">视频分享 </a>
+                            <a href="#" target="_blank">视频分享 </a>
                         </li>
                         <li class="nav-hover">
-                            <a href="https://shlxzh.taobao.com/category-1001045259.htm?spm=a1z10.3-c-s.w5002-15726745217.5.3ccb3530A6SpEZ&amp;search=y&amp;catName=%A1%BE%EA%D1%CD%A9%CE%C4%B7%BF%A1%BF" target="_blank">文房商店 <b class="caret"></b></a>
+                            <a href="#" target="_blank">文房商店 <b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="https://h5.youzan.com/wscshop/feature/34c5XlwxGR?redirect_count=1" target="_blank">购买暄桐文房</a>
+                                    <a href="#" target="_blank">购买暄桐文房</a>
                                 </li>
                                 <li>
-                                    <a href="https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-15726745250.24.525457c7NOuT1G&amp;id=581113349594" target="_blank">购买文房文具包</a>
+                                    <a href="#" target="_blank">购买文房文具包</a>
                                 </li>
                                 <li>
-                                    <a href="http://www.xuantong.cn/page/protect" target="_blank">文房的养护</a>
+                                    <a href="#" target="_blank">文房的养护</a>
                                 </li>
                                 <li>
-                                    <a href="https://shop114039340.taobao.com/category-1001045259.htm?spm=2013.1.w5002-15726745217.5.11e56141qoMrl5&amp;search=y&amp;catName=%A1%BE%EA%D1%CD%A9%CE%C4%B7%BF%A1%BF" target="_blank">查看更多</a>
+                                    <a href="#" target="_blank">查看更多</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-hover">
-                            <a href="http://xuantong.cn/article" target="_blank">关于我们 <b class="caret"></b></a>
+                            <a href="#" target="_blank">关于我们 <b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="http://xuantong.cn/article/category/teacher">关于林曦老师</a>
+                                    <a href="#">关于林曦老师</a>
                                 </li>
                                 <li>
-                                    <a href="http://xuantong.cn/article/category/classroom">关于暄桐教室</a>
+                                    <a href="#">关于暄桐教室</a>
                                 </li>
                                 <li>
-                                    <a href="http://xuantong.cn/article/category/classmates">写字的人</a>
+                                    <a href="#">写字的人</a>
                                 </li>
                                 <li>
-                                    <a href="http://xuantong.cn/article/category/calligraphy">写字这件事</a>
+                                    <a href="#">写字这件事</a>
                                 </li>
                             </ul>
                         </li>
@@ -190,78 +189,78 @@
                 </div>
             </div>
             <a href="/" class="navbar-brand">
-                <img src="../img/17151976bafc671465.png">
+                <img src="../img/95f4ce96129dc2f865547bf89fb719c3.png">
             </a>
         </div>
         <nav class="collapse navbar-collapse">
             <ul class="nav navbar-nav clearfix hidden-xs " id="nav">
 
                 <li class="">
-                    <a href="http://www.xuantong.cn/" target="_blank">首页 </a>
+                    <a href="#" target="_blank">首页 </a>
                 </li>
                 <li class="nav-hover">
-                    <a href="http://xuantong.cn/course/explore">课程 <b class="caret"></b></a>
+                    <a href="#">课程 <b class="caret"></b></a>
                     <ul class="dropdown-menu" role="menu">
                         <li>
-                            <a href="http://xuantong.cn/course/explore" target="_blank">单阶课程</a>
+                            <a href="#" target="_blank">单阶课程</a>
                         </li>
                         <li>
-                            <a href="http://xuantong.cn/classroom/explore" target="_blank">全阶课程</a>
+                            <a href="#" target="_blank">全阶课程</a>
                         </li>
                         <li>
-                            <a href="http://www.xuantong.cn/page/guidepc2" target="_blank">报名指南</a>
+                            <a href="#" target="_blank">报名指南</a>
                         </li>
                         <li>
-                            <a href="http://www.xuantong.cn/page/guidepc3" target="_blank">听课指南</a>
+                            <a href="#" target="_blank">听课指南</a>
                         </li>
                         <li>
-                            <a href="http://www.xuantong.cn/page/QA" target="_blank">常见问题解答</a>
+                            <a href="#" target="_blank">常见问题解答</a>
                         </li>
                         <li>
-                            <a href="http://www.xuantong.cn/page/workPC" target="_blank">提交作业&amp;下载资料指南</a>
+                            <a href="#" target="_blank">提交作业&amp;下载资料指南</a>
                         </li>
                     </ul>
                 </li>
                 <li class="">
-                    <a href="http://xuantong.cn/open/course/explore" target="_blank">视频分享 </a>
+                    <a href="#" target="_blank">视频分享 </a>
                 </li>
                 <li class="nav-hover">
-                    <a href="https://shlxzh.taobao.com/category-1001045259.htm?spm=a1z10.3-c-s.w5002-15726745217.5.3ccb3530A6SpEZ&amp;search=y&amp;catName=%A1%BE%EA%D1%CD%A9%CE%C4%B7%BF%A1%BF" target="_blank">文房商店 <b class="caret"></b></a>
+                    <a href="#" target="_blank">文房商店 <b class="caret"></b></a>
                     <ul class="dropdown-menu" role="menu">
                         <li>
-                            <a href="https://h5.youzan.com/wscshop/feature/34c5XlwxGR?redirect_count=1" target="_blank">购买暄桐文房</a>
+                            <a href="#" target="_blank">购买暄桐文房</a>
                         </li>
                         <li>
-                            <a href="https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-15726745250.24.525457c7NOuT1G&amp;id=581113349594" target="_blank">购买文房文具包</a>
+                            <a href="#">购买文房文具包</a>
                         </li>
                         <li>
-                            <a href="http://www.xuantong.cn/page/protect" target="_blank">文房的养护</a>
+                            <a href="#" target="_blank">文房的养护</a>
                         </li>
                         <li>
-                            <a href="https://shop114039340.taobao.com/category-1001045259.htm?spm=2013.1.w5002-15726745217.5.11e56141qoMrl5&amp;search=y&amp;catName=%A1%BE%EA%D1%CD%A9%CE%C4%B7%BF%A1%BF" target="_blank">查看更多</a>
+                            <a href="#" target="_blank">查看更多</a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-hover">
-                    <a href="http://xuantong.cn/article" target="_blank">关于我们 <b class="caret"></b></a>
+                    <a href="#" target="_blank">关于我们 <b class="caret"></b></a>
                     <ul class="dropdown-menu" role="menu">
                         <li>
-                            <a href="http://xuantong.cn/article/category/teacher">关于林曦老师</a>
+                            <a href="#">关于林曦老师</a>
                         </li>
                         <li>
-                            <a href="http://xuantong.cn/article/category/classroom">关于暄桐教室</a>
+                            <a href="#">关于暄桐教室</a>
                         </li>
                         <li>
-                            <a href="http://xuantong.cn/article/category/classmates">写字的人</a>
+                            <a href="#">写字的人</a>
                         </li>
                         <li>
-                            <a href="http://xuantong.cn/article/category/calligraphy">写字这件事</a>
+                            <a href="#">写字这件事</a>
                         </li>
                     </ul>
                 </li>
             </ul>
             <div class="navbar-user  left ">
-                <ul class="nav user-nav">
+               <%-- <ul class="nav user-nav">
                     <li class="user-avatar-li nav-hover visible-xs">
                         <a href="javascript:;" class="dropdown-toggle">
                             <img class="avatar-xs" src="../img/avatar.png">
@@ -285,7 +284,7 @@
                     <li class="hidden-xs">
                         <a href="/register?goto=/">注册</a>
                     </li>
-                </ul>
+                </ul>--%>
                 <form class="navbar-form navbar-right hidden-xs hidden-sm" action="/search" method="get">
                     <div class="form-group">
                         <input class="form-control js-search" value="" name="q" placeholder="搜索">
@@ -300,31 +299,31 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
                 <div>
-                    <a href="http://www.xuantong.cn/my/course/51" target="_blank"><img class="img-responsive" src="../img/10400996bbd5639005.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/10400996bbd5639005.jpg">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
                 <div>
-                    <a href="http://www.xuantong.cn/open/course/24" target="_blank"><img class="img-responsive" src="../img/102707b7c850320855.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/102707b7c850320855.jpg">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide swiper-hidden" style="background: #f6f5ee;">
                 <div>
-                    <a href="http://www.xuantong.cn/article/category/classmates" target="_blank"><img class="img-responsive" src="../img/10281827872f756940.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/10281827872f756940.jpg">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
                 <div>
-                    <a href="http://www.xuantong.cn/open/course/16" target="_blank"><img class="img-responsive" src="../img/102915b765f5980767.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/102915b765f5980767.jpg">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
                 <div>
-                    <a href="http://www.xuantong.cn/article/category/classroom" target="_blank"><img class="img-responsive" src="../img/1030273b1228138622.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/1030273b1228138622.jpg">
                     </a>
                 </div>
             </div>
@@ -710,7 +709,7 @@
 </div>
 
 <!-- 侧边栏快捷操作 -->
-<div class="es-bar hidden-xs">
+<%--<div class="es-bar hidden-xs">
 
     <!-- 左侧列表 -->
     <div class="es-bar-menu">
@@ -766,7 +765,7 @@
             <img width="110" class="img-responsive" src="../img/18095640c04e564997.jpg" alt="">
         </div>
     </div>
-</div>
+</div>--%>
 
 <div id="login-modal" class="modal" data-url="/login/ajax"></div>
 <div id="modal" class="modal"></div>
