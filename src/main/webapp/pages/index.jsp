@@ -697,11 +697,11 @@
                 <a href="/" target="_blank">毫秒学院</a>
                 <script src="../js/entrance.js" class="zhiCustomBtn" id="zhichiScript" data-args="属性名1=属性值1&属性名2=属性值2"></script>
 
-                <div class="mts">
-                    <a href="http://www.miibeian.gov.cn/" target="_blank">
-                        京ICP备17020743号
-                    </a>
-                </div>
+                <%--<div class="mts">--%>
+                    <%--<a href="http://www.miibeian.gov.cn/" target="_blank">--%>
+                        <%--京ICP备17020743号--%>
+                    <%--</a>--%>
+                <%--</div>--%>
             </div>
         </div>
     </footer>
