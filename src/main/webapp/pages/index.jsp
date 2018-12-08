@@ -129,61 +129,21 @@
                             <a href="#">课程 <b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="#" target="_blank">单阶课程</a>
+                                    <a href="#" target="_blank">干货代码教程</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">全阶课程</a>
+                                    <a href="#" target="_blank">环境配置大全</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">报名指南</a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">听课指南</a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">常见问题解答</a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">提交作业&amp;下载资料指南</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="">
-                            <a href="#" target="_blank">视频分享 </a>
-                        </li>
-                        <li class="nav-hover">
-                            <a href="#" target="_blank">文房商店 <b class="caret"></b></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="#" target="_blank">购买暄桐文房</a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">购买文房文具包</a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">文房的养护</a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">查看更多</a>
+                                    <a href="#" target="_blank">疑点问题解答</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-hover">
-                            <a href="#" target="_blank">关于我们 <b class="caret"></b></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="#">关于林曦老师</a>
-                                </li>
-                                <li>
-                                    <a href="#">关于暄桐教室</a>
-                                </li>
-                                <li>
-                                    <a href="#">写字的人</a>
-                                </li>
-                                <li>
-                                    <a href="#">写字这件事</a>
-                                </li>
-                            </ul>
+                            <a href="#" target="_blank">参加培训</a>
+                        </li>
+                        <li class="nav-hover">
+                            <a href="#" target="_blank">关于我们</a>
                         </li>
                     </ul>
                 </div>
@@ -192,138 +152,56 @@
                 <img src="../img/95f4ce96129dc2f865547bf89fb719c3.png">
             </a>
         </div>
-        <nav class="collapse navbar-collapse">
-            <ul class="nav navbar-nav clearfix hidden-xs " id="nav">
-
-                <li class="">
-                    <a href="#" target="_blank">首页 </a>
-                </li>
-                <li class="nav-hover">
-                    <a href="#">课程 <b class="caret"></b></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>
-                            <a href="#" target="_blank">单阶课程</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">全阶课程</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">报名指南</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">听课指南</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">常见问题解答</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">提交作业&amp;下载资料指南</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="">
-                    <a href="#" target="_blank">视频分享 </a>
-                </li>
-                <li class="nav-hover">
-                    <a href="#" target="_blank">文房商店 <b class="caret"></b></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>
-                            <a href="#" target="_blank">购买暄桐文房</a>
-                        </li>
-                        <li>
-                            <a href="#">购买文房文具包</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">文房的养护</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">查看更多</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-hover">
-                    <a href="#" target="_blank">关于我们 <b class="caret"></b></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>
-                            <a href="#">关于林曦老师</a>
-                        </li>
-                        <li>
-                            <a href="#">关于暄桐教室</a>
-                        </li>
-                        <li>
-                            <a href="#">写字的人</a>
-                        </li>
-                        <li>
-                            <a href="#">写字这件事</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="navbar-user  left ">
-               <%-- <ul class="nav user-nav">
-                    <li class="user-avatar-li nav-hover visible-xs">
-                        <a href="javascript:;" class="dropdown-toggle">
-                            <img class="avatar-xs" src="../img/avatar.png">
-                        </a>
+        <div style="margin-left: 350px;">
+            <nav class="collapse navbar-collapse">
+                <ul class="nav navbar-nav clearfix hidden-xs " id="nav">
+                    <li class="">
+                        <a href="#" target="_blank">首页 </a>
+                    </li>
+                    <li class="nav-hover">
+                        <a href="#">课程 <b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="user-nav-li-login">
-                                <a href="/login?goto=/">
-                                    <i class="es-icon es-icon-denglu"></i>登录
-                                </a>
+                            <li>
+                                <a href="#" target="_blank">干货代码教程</a>
                             </li>
-                            <li class="user-nav-li-register">
-                                <a href="/register?goto=/">
-                                    <i class="es-icon es-icon-zhuce"></i>注册
-                                </a>
+                            <li>
+                                <a href="#" target="_blank">环境配置大全</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">疑点问题解答</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-xs">
-                        <a href="/login?goto=/">登录</a>
+                    <li class="">
+                        <a href="#" target="_blank">参加培训</a>
                     </li>
-                    <li class="hidden-xs">
-                        <a href="/register?goto=/">注册</a>
+                    <li class="">
+                        <a href="#" target="_blank">关于我们</a>
                     </li>
-                </ul>--%>
-                <form class="navbar-form navbar-right hidden-xs hidden-sm" action="/search" method="get">
-                    <div class="form-group">
-                        <input class="form-control js-search" value="" name="q" placeholder="搜索">
-                        <button class="button es-icon es-icon-search"></button>
-                    </div>
-                </form>
-            </div>
-        </nav>
+                </ul>
+                <div class="navbar-user  left ">
+                    <form class="navbar-form navbar-right hidden-xs hidden-sm" action="/search" method="get">
+                        <div class="form-group">
+                            <input class="form-control js-search" value="" name="q" placeholder="搜索">
+                            <button class="button es-icon es-icon-search"></button>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <section class="es-poster swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
                 <div>
-                    <a href="#" target="_blank"><img class="img-responsive" src="../img/10400996bbd5639005.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/1.jpg">
                     </a>
                 </div>
             </div>
             <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
                 <div>
-                    <a href="#" target="_blank"><img class="img-responsive" src="../img/102707b7c850320855.jpg">
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide swiper-hidden" style="background: #f6f5ee;">
-                <div>
-                    <a href="#" target="_blank"><img class="img-responsive" src="../img/10281827872f756940.jpg">
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
-                <div>
-                    <a href="#" target="_blank"><img class="img-responsive" src="../img/102915b765f5980767.jpg">
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide swiper-hidden" style="background: #f4f4f4;">
-                <div>
-                    <a href="#" target="_blank"><img class="img-responsive" src="../img/1030273b1228138622.jpg">
+                    <a href="#" target="_blank"><img class="img-responsive" src="../img/2.jpg">
                     </a>
                 </div>
             </div>
@@ -335,29 +213,29 @@
 
         <div class="container">
             <div class="text-line">
-                <h5><span>单阶课程</span>
+                <h5><span>干货代码教程</span>
                     <div class="line"></div>
                 </h5>
-                <div class="subtitle">课程以不同主题展开，一起学习，一起玩耍</div>
+                <div class="subtitle">你会的，不会的，都在这里</div>
             </div>
             <div class="course-filter" id="course-filter">
                 <ul class="nav nav-pills hidden-xs" role="tablist">
-                    <li role="presentation" class="active  js-course-filter" data-url="/course/search?orderBy=recommendedSeq" data-type="course">
-                        <a href="javascript:;">全部课程</a>
-                    </li>
-                    <li role="presentation" class=" js-course-filter" data-url="/course/search?categoryId=1&amp;orderBy=recommendedSeq" data-type="course">
-                        <a href="javascript:;">默认分类</a>
-                    </li>
+                    <%--<li role="presentation" class="active  js-course-filter" data-url="/course/search?orderBy=recommendedSeq" data-type="course">--%>
+                        <%--<a href="javascript:;">全部课程</a>--%>
+                    <%--</li>--%>
+                    <%--<li role="presentation" class=" js-course-filter" data-url="/course/search?categoryId=1&amp;orderBy=recommendedSeq" data-type="course">--%>
+                        <%--<a href="javascript:;">默认分类</a>--%>
+                    <%--</li>--%>
                 </ul>
                 <div class="btn-group visible-xs">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">全部课程 <span class="caret"></span></button>
+                    <%--<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">全部课程 <span class="caret"></span></button>--%>
                     <ul class="dropdown-menu" role="menu">
-                        <li role="presentation" class="js-course-filter active " data-url="/course/search?orderBy=recommendedSeq" data-type="course">
-                            <a href="javascript:;">全部课程</a>
-                        </li>
-                        <li role="presentation" class="js-course-filter " data-url="/course/search?categoryId=1&amp;orderBy=recommendedSeq" data-type="course">
-                            <a href="javascript:;">默认分类</a>
-                        </li>
+                        <%--<li role="presentation" class="js-course-filter active " data-url="/course/search?orderBy=recommendedSeq" data-type="course">--%>
+                            <%--<a href="javascript:;">全部课程</a>--%>
+                        <%--</li>--%>
+                        <%--<li role="presentation" class="js-course-filter " data-url="/course/search?categoryId=1&amp;orderBy=recommendedSeq" data-type="course">--%>
+                            <%--<a href="javascript:;">默认分类</a>--%>
+                        <%--</li>--%>
                     </ul>
                 </div>
                 <div class="course-sort btn-group">
@@ -377,7 +255,6 @@
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="course-item">
                             <div class="course-img">
-
                                 <a href="/course/49" target="_blank">
                                     <img src="../img/lazyload_course.png" alt="第一阶丨篆隶筑基课程" class="img-responsive" data-echo="../img/113822ec81e6915061.png" />
                                 </a>
@@ -390,14 +267,11 @@
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>245</span>
-
                                     <span class="course-price-widget">
-      <span class="
-                              price
-            ">
-          3280元
-      </span>
-											</span>
+                                      <span class="price">
+                                          3280元
+                                      </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -418,14 +292,11 @@
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>48</span>
-
                                     <span class="course-price-widget">
-      <span class="
-                              price
-            ">
-          6560元
-      </span>
-											</span>
+                                      <span class="price">
+                                          3280元
+                                      </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -433,7 +304,6 @@
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="course-item">
                             <div class="course-img">
-
                                 <a href="/course/51" target="_blank">
                                     <img src="../img/lazyload_course.png" alt="第三阶丨小楷写经课程" class="img-responsive" data-echo="../img/1745564354a4618794.png" />
                                 </a>
@@ -446,14 +316,11 @@
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>0</span>
-
                                     <span class="course-price-widget">
-      <span class="
-                              price
-            ">
-          3280元
-      </span>
-											</span>
+                                      <span class="price">
+                                          3280元
+                                      </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -461,7 +328,6 @@
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="course-item">
                             <div class="course-img">
-
                                 <a href="/course/53" target="_blank">
                                     <img src="../img/lazyload_course.png" alt="第四阶丨自在行草课程" class="img-responsive" data-echo="../img/153124ccb630903020.png" />
                                 </a>
@@ -474,14 +340,11 @@
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>0</span>
-
                                     <span class="course-price-widget">
-      <span class="
-                              price
-            ">
-          6560元
-      </span>
-											</span>
+                                      <span class="price">
+                                          3280元
+                                      </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -496,54 +359,12 @@
         </div>
     </section>
 
-    <!-- 推荐班级 -->
-    <section class="class-section section-gray">
-        <div class="container">
-            <div class="text-line">
-                <h5>
-                    <span>全阶课程</span>
-                    <div class="line"></div>
-                </h5>
-                <div class="subtitle">一步一脚印地学习多阶段课程，逐步进阶</div>
-            </div>
-            <div class="recommend-class-list row">
-                <div class="col-md-3 col-xs-6">
-                    <div class="class-item">
-                        <div class="class-img-wrap">
-                            <a class="class-img" href="/classroom/3">
-                                <img src="../img/lazyload_course.png" alt="全阶课程丨从书法之美到生活之美" class="img-responsive" data-echo="../img/000235b87f09690404.png" />
-                            </a>
-                            <div class="mask">
-
-                                <a href="/classroom/3" class="btn btn-warning">立即加入</a>
-                            </div>
-                        </div>
-                        <h3><a class="link-dark" href="/classroom/3">全阶课程丨从书法之美到生活之美</a></h3>
-                        <div class="metas">共<span>4</span>课</div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-more-btn">
-                <a href="/classroom/explore" class="btn btn-default btn-lg">
-                    更多全阶课程
-                    <i class="mrs-o es-icon es-icon-chevronright"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="feature-banner" style="background: #e2133a">
-        <a href="http://www.xuantong.cn/page/xkwf" target="_blank">
-            <img class="img-responsive" src="../img/block_picture_1541126447.jpg" alt="学习包海报">
-        </a>
-    </section>
-
     <section class="course-list-section open-course-list-section section-wihte" id="open-course-list-section">
 
         <div class="container">
             <div class="text-line">
-                <h5><span>免费讲座及视频</span><div class="line"></div></h5>
-                <div class="subtitle">是智慧，也是滋养</div>
+                <h5><span>环境配置大全</span><div class="line"></div></h5>
+                <div class="subtitle">不要再去繁杂的互联网上找抄来抄去的答案了,这里有最清晰最好懂的内容，而且！包教包会</div>
             </div>
 
             <div class="course-list">
@@ -642,8 +463,8 @@
     <section class="dynamic-section section-gray">
         <div class="container">
             <div class="text-line gray">
-                <h5><span>乐园</span><div class="line"></div></h5>
-                <div class="subtitle">关于那些让我们欢喜的物事和可爱的生活方式</div>
+                <h5><span>疑点问题解答</span><div class="line"></div></h5>
+                <div class="subtitle">把你遇到的问题留言下来,刘老师为你解决,再为你讲懂</div>
             </div>
             <div class="dynamic-section-main row">
                 <div class="col-md-6">
@@ -765,12 +586,12 @@
 <div id="modal" class="modal"></div>
 <div id="attachment-modal" class="modal"></div>
 
-<!--<script>
+<script>
 if (typeof app === 'undefined') {
 var app = {};
 }
 app.version = '8.2.4_19';
-app.httpHost = 'https://www.xuantong.cn';
+app.httpHost = 'https://www.haomiaoxy.com';
 app.basePath = 'https://sce4a8b6c0d93v-sb-qn.qiqiuyun.net';
 app.theme = 'jianmo';
 
@@ -790,7 +611,7 @@ app.imgCropUrl = '/file/img/crop';
 app.lessonCopyEnabled = '1';
 app.cloudSdkCdn = '';
 app.lang = 'zh_CN';
-</script>-->
+</script>
 
 <script src=../js/translator.min.js"></script>
 
