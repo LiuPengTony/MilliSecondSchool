@@ -1,14 +1,18 @@
 package com.millisecondschool.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.millisecondschool.entity.BaiDuEntity;
 import com.millisecondschool.entity.TUserVisit;
+import com.millisecondschool.service.TUserVisitService;
 import com.millisecondschool.utils.HttpClientUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.json.JsonObject;
 import javax.servlet.http.HttpServletRequest;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,6 +27,9 @@ public class IndexController {
 
     @Value("${baiduIpApi}")
     private String baiduIpApi;
+
+    @Autowired
+    private TUserVisitService tUserVisitService;
 
     @RequestMapping("/first")
     public ModelAndView first(HttpServletRequest request) {
@@ -48,10 +55,22 @@ public class IndexController {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         userVisit.setVisitTime(dateFormat.format(new Date()));
 //        https://api.map.baidu.com/location/ip?ip=180.167.144.2&ak=ShZi5I5a2sBoIv4yafmqRBdtHez5iAT8
-        String url = baiduIpApi + "?ip=" + ip + "&ak=" + baiduAK;
+        String url = baiduIpApi + "?ip=" + "58.19.168.0" + "&ak=" + baiduAK;
         try {
             JSONObject jsonObject = HttpClientUtils.doGet(url);
-
+            BaiDuEntity baiDuEntity = new JSONObject().parseObject(jsonObject.toJSONString(), BaiDuEntity.class);
+            log.info("百度地图api调用结果返回" + baiDuEntity);
+            if (baiDuEntity != null) {
+                if (baiDuEntity.getStatus() == 0) {
+                    String address = (String) baiDuEntity.getContent().get("address");
+                    userVisit.setIpAddress(address);
+                } else {
+                    log.info("百度地图api调用失败,错误码是" + baiDuEntity.getStatus());
+                }
+            } else {
+                log.info("百度地图api调用结果返回null");
+            }
+            tUserVisitService.insertSelective(userVisit);
         } catch (Exception e) {
             e.printStackTrace();
             log.error("百度地图api调用异常" + e);
