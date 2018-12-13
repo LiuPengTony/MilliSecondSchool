@@ -143,7 +143,10 @@
                             <a href="#" target="_blank">参加培训</a>
                         </li>
                         <li class="nav-hover">
-                            <a href="#" target="_blank">关于我们</a>
+                            <a href="#" target="_blank">关于毫秒</a>
+                        </li>
+                        <li class="nav-hover">
+                            <a href="#" target="_blank">您的建议</a>
                         </li>
                     </ul>
                 </div>
@@ -176,7 +179,10 @@
                         <a href="#" target="_blank">参加培训</a>
                     </li>
                     <li class="">
-                        <a href="#" target="_blank">关于我们</a>
+                        <a href="#" target="_blank">关于毫秒</a>
+                    </li>
+                    <li class="">
+                        <a href="#" target="_blank">您的建议</a>
                     </li>
                 </ul>
                 <div class="navbar-user  left ">
@@ -216,26 +222,13 @@
                 <h5><span>干货代码教程</span>
                     <div class="line"></div>
                 </h5>
-                <div class="subtitle">你会的，不会的，都在这里</div>
+                <div class="subtitle">你不会的，都在这里</div>
             </div>
             <div class="course-filter" id="course-filter">
                 <ul class="nav nav-pills hidden-xs" role="tablist">
-                    <%--<li role="presentation" class="active  js-course-filter" data-url="/course/search?orderBy=recommendedSeq" data-type="course">--%>
-                        <%--<a href="javascript:;">全部课程</a>--%>
-                    <%--</li>--%>
-                    <%--<li role="presentation" class=" js-course-filter" data-url="/course/search?categoryId=1&amp;orderBy=recommendedSeq" data-type="course">--%>
-                        <%--<a href="javascript:;">默认分类</a>--%>
-                    <%--</li>--%>
                 </ul>
                 <div class="btn-group visible-xs">
-                    <%--<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">全部课程 <span class="caret"></span></button>--%>
                     <ul class="dropdown-menu" role="menu">
-                        <%--<li role="presentation" class="js-course-filter active " data-url="/course/search?orderBy=recommendedSeq" data-type="course">--%>
-                            <%--<a href="javascript:;">全部课程</a>--%>
-                        <%--</li>--%>
-                        <%--<li role="presentation" class="js-course-filter " data-url="/course/search?categoryId=1&amp;orderBy=recommendedSeq" data-type="course">--%>
-                            <%--<a href="javascript:;">默认分类</a>--%>
-                        <%--</li>--%>
                     </ul>
                 </div>
                 <div class="course-sort btn-group">
@@ -523,65 +516,6 @@
 
 </div>
 
-<!-- 侧边栏快捷操作 -->
-<%--<div class="es-bar hidden-xs">--%>
-
-    <%--<!-- 左侧列表 -->--%>
-    <%--<div class="es-bar-menu">--%>
-        <%--<ul class="bar-menu-top">--%>
-            <%--<li data-id="#bar-user-center" class="bar-user">--%>
-                <%--<a href="javascript:;" data-url="/esbar/my/study_center">学<br>习<br>中<br>心</a>--%>
-            <%--</li>--%>
-            <%--<li data-id="#bar-homework" data-toggle="tooltip" data-placement="left" title="我的考试/作业" data-trigger="hover" data-container=".es-bar">--%>
-                <%--<a href="javascript:;" data-url="/esbar/my/practice/finished">--%>
-                    <%--<i class="es-icon es-icon-edit"></i>--%>
-                <%--</a>--%>
-            <%--</li>--%>
-            <%--<li data-id="#bar-course-list" data-placement="left" data-toggle="tooltip" title="我的课程/全阶课程" data-trigger="hover" data-container=".es-bar">--%>
-                <%--<a data-url="/esbar/my/course" href="javascript:;">--%>
-                    <%--<i class="es-icon es-icon-book">--%>
-                    <%--</i>--%>
-                <%--</a>--%>
-            <%--</li>--%>
-            <%--<li data-id="#bar-message" data-toggle="tooltip" data-placement="left" title="通知">--%>
-                <%--<a href="javascript:;">--%>
-                    <%--<i class="es-icon es-icon-notifications"></i>--%>
-                <%--</a>--%>
-            <%--</li>--%>
-        <%--</ul>--%>
-        <%--<ul class="bar-menu-sns">--%>
-            <%--<li class="popover-btn bar-weixin-btn" data-container=".bar-weixin-btn" data-content-element="#bar-weixin-content">--%>
-                <%--<a><i class="es-icon es-icon-weixin"></i></a>--%>
-            <%--</li>--%>
-
-            <%--<li class="go-top" style="margin:-10px auto 0 auto;" data-toggle="tooltip" data-placement="left" title="回到顶端" data-trigger="hover" data-container=".es-bar">--%>
-                <%--<a href="javascript:;">--%>
-                    <%--<i class="es-icon es-icon-keyboardarrowup" style="margin-bottom:-8px"></i>--%>
-                    <%--<span class="text-sm">TOP</span>--%>
-                <%--</a>--%>
-            <%--</li>--%>
-        <%--</ul>--%>
-    <%--</div>--%>
-
-    <%--<!-- 列表内容 -->--%>
-
-    <%--<div class="bar-popover-content" style="display:none;">--%>
-        <%--<div id="bar-qq-content">--%>
-            <%--<hr>--%>
-        <%--</div>--%>
-
-        <%--<div id="bar-phone-content">--%>
-            <%--<p class="mtm"><i class="es-icon es-icon-mail mrm"></i>邮箱：--%>
-                <%--<a class="link-dark" href="mailto:xuantonglearning@126.com">xuantonglearning@126.com</a>--%>
-            <%--</p>--%>
-        <%--</div>--%>
-
-        <%--<div id="bar-weixin-content">--%>
-            <%--<img width="110" class="img-responsive" src="../img/18095640c04e564997.jpg" alt="">--%>
-        <%--</div>--%>
-    <%--</div>--%>
-<%--</div>--%>
-
 <div id="login-modal" class="modal" data-url="/login/ajax"></div>
 <div id="modal" class="modal"></div>
 <div id="attachment-modal" class="modal"></div>
@@ -614,7 +548,6 @@ app.lang = 'zh_CN';
 </script>
 
 <script src=../js/translator.min.js"></script>
-
 <script src="../js/zh_CN.js "></script>
 <script src="../js/base.js "></script>
 <script src="../js/common.js "></script>
@@ -629,6 +562,14 @@ app.lang = 'zh_CN';
 <script type="text/javascript ">
     window.seajsBoot && window.seajsBoot();
 </script>
-
+<script>
+    var _param = {
+        url : '/index/getUserInfo',
+        type : 'POST',
+        success : function (data) {
+        }
+    };
+    $.ajax(_param);
+</script>
 </body>
 </html>
