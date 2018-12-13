@@ -4,6 +4,7 @@ import com.millisecondschool.dao.TUserVisitMapper;
 import com.millisecondschool.entity.TUserVisit;
 import com.millisecondschool.service.TUserVisitService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class TUserVisitServiceImpl implements TUserVisitService {
 
+    @Autowired
     private TUserVisitMapper tUserVisitMapper;
 
     @Override

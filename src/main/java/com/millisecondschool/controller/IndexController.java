@@ -1,6 +1,7 @@
 package com.millisecondschool.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.millisecondschool.dao.TUserVisitMapper;
 import com.millisecondschool.entity.BaiDuEntity;
 import com.millisecondschool.entity.TUserVisit;
 import com.millisecondschool.service.TUserVisitService;
@@ -32,7 +33,7 @@ public class IndexController {
     private TUserVisitService tUserVisitService;
 
     @RequestMapping("/first")
-    public ModelAndView first(HttpServletRequest request) {
+    public ModelAndView first() {
         ModelAndView view = new ModelAndView("index");
         return view;
     }
@@ -54,8 +55,7 @@ public class IndexController {
         }
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         userVisit.setVisitTime(dateFormat.format(new Date()));
-//        https://api.map.baidu.com/location/ip?ip=180.167.144.2&ak=ShZi5I5a2sBoIv4yafmqRBdtHez5iAT8
-        String url = baiduIpApi + "?ip=" + "58.19.168.0" + "&ak=" + baiduAK;
+        String url = baiduIpApi + "?ip=" + ip + "&ak=" + baiduAK;
         try {
             JSONObject jsonObject = HttpClientUtils.doGet(url);
             BaiDuEntity baiDuEntity = new JSONObject().parseObject(jsonObject.toJSONString(), BaiDuEntity.class);
@@ -76,6 +76,5 @@ public class IndexController {
             log.error("百度地图api调用异常" + e);
         }
     }
-
 
 }
