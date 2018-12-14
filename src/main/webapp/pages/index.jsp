@@ -581,8 +581,8 @@
     app.lang = 'zh_CN';
 </script>
 
-<script src=../js/translator.min.js"></script>
-<script src="../js/zh_CN.js "></script>
+<%--<script src=../js/translator.min.js"></script>--%>
+<%--<script src="../js/zh_CN.js "></script>--%>
 <script src="../js/base.js "></script>
 <script src="../js/common.js "></script>
 <script src="../js/main.js "></script>
