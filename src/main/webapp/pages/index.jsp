@@ -1,4 +1,4 @@
-<%@page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -16,28 +16,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
     <meta name="renderer" content="webkit">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>毫秒学院 - java学习好助手</title>
-    <meta name="keywords" content="java,毫秒,java学习,java零基础,java培训,java初级培训,转行学java,线上java培训" />
-    <meta name="description" content="毫秒学院是一家线上java培训机构，颠覆传统线下java培训重运营重资产模式，以线上直播的方式来传授java知识，力图做java学习者的好帮手好助手" />
-    <meta content="27gb98wt6guBkYY44-Qa98pH0BSMTr1YyZymBGk4UmY" name="csrf-token" />
-    <meta content="0" name="is-login" />
-    <meta content="1" name="is-open" />
+    <meta name="keywords" content="java,毫秒,java学习,java零基础,java培训,java初级培训,转行学java,线上java培训"/>
+    <meta name="description" content="毫秒学院是一家线上java培训机构，颠覆传统线下java培训重运营重资产模式，以线上直播的方式来传授java知识，力图做java学习者的好帮手好助手"/>
+    <meta content="27gb98wt6guBkYY44-Qa98pH0BSMTr1YyZymBGk4UmY" name="csrf-token"/>
+    <meta content="0" name="is-login"/>
+    <meta content="1" name="is-open"/>
 
-    <link rel="icon" href="../img/95f4ce96129dc2f865547bf89fb719c3.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="../img/95f4ce96129dc2f865547bf89fb719c3.png" type="image/x-icon" media="screen" />
+    <link rel="icon" href="../img/95f4ce96129dc2f865547bf89fb719c3.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../img/95f4ce96129dc2f865547bf89fb719c3.png" type="image/x-icon" media="screen"/>
 
     <!--[if lt IE 9]>
     <script src="../js/html5shiv.js"></script>
     <![endif]-->
 
-    <link href="../css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/main.css" rel="stylesheet" />
-    <link href="../css/main-v2.css" rel="stylesheet" />
+    <link href="../css/bootstrap.css" rel="stylesheet"/>
+    <link href="../css/main.css" rel="stylesheet"/>
+    <link href="../css/main-v2.css" rel="stylesheet"/>
 
-    <link href="../css/header-white.css" rel="stylesheet" />
+    <link href="../css/header-white.css" rel="stylesheet"/>
 
-    <link href="../css/main-v3.css" rel="stylesheet" />
+    <link href="../css/main-v3.css" rel="stylesheet"/>
 
     <script src="../js/index.js"></script>
 </head>
@@ -50,6 +51,7 @@
     .lt-ie9 {
         overflow: hidden;
     }
+
     .ie-mask {
         z-index: 999999;
         position: fixed;
@@ -61,6 +63,7 @@
         opacity: 0.5;
         background: #000;
     }
+
     .ie-alert-wrap {
         position: absolute;
         z-index: 1000000;
@@ -70,11 +73,13 @@
         right: 0;
         text-align: center;
     }
+
     .ie-alert {
         width: 514px;
         height: 397px;
         margin: 0 auto;
     }
+
     .ie-alert__chrome,
     .ie-alert__firefox {
         position: absolute;
@@ -84,10 +89,12 @@
         width: 60px;
         height: 80px;
     }
+
     .ie-alert__chrome {
         left: 50%;
         margin-left: -80px;
     }
+
     .ie-alert__firefox {
         right: 50%;
         margin-right: -80px;
@@ -96,7 +103,8 @@
 <div class="ie-mask"></div>
 <div class="ie-alert-wrap">
     <div class="ie-alert" style="background:url('../img/browser_update.png')">
-        <a href="http://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8" target="_blank" class="ie-alert__chrome"></a>
+        <a href="http://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8" target="_blank"
+           class="ie-alert__chrome"></a>
         <a href="http://firefox.com.cn/download/" target="_blank" class="ie-alert__firefox"></a>
     </div>
 </div>
@@ -123,7 +131,7 @@
                     <ul class="nav navbar-nav">
 
                         <li class="">
-                            <a href="#" target="_blank">首页 </a>
+                            <a href="#" onclick="home()">首页 </a>
                         </li>
                         <li class="nav-hover">
                             <a href="#">课程 <b class="caret"></b></a>
@@ -146,7 +154,7 @@
                             <a href="#" target="_blank">关于毫秒</a>
                         </li>
                         <li class="nav-hover">
-                            <a href="#" target="_blank">您的建议</a>
+                            <a href="#" onclick="advice()">您的建议</a>
                         </li>
                     </ul>
                 </div>
@@ -159,7 +167,7 @@
             <nav class="collapse navbar-collapse">
                 <ul class="nav navbar-nav clearfix hidden-xs " id="nav">
                     <li class="">
-                        <a href="#" target="_blank">首页 </a>
+                        <a href="#" onclick="home()">首页 </a>
                     </li>
                     <li class="nav-hover">
                         <a href="#">课程 <b class="caret"></b></a>
@@ -182,7 +190,7 @@
                         <a href="#" target="_blank">关于毫秒</a>
                     </li>
                     <li class="">
-                        <a href="#" target="_blank">您的建议</a>
+                        <a href="#" onclick="advice()">您的建议</a>
                     </li>
                 </ul>
                 <div class="navbar-user  left ">
@@ -232,13 +240,16 @@
                     </ul>
                 </div>
                 <div class="course-sort btn-group">
-                    <a href="javascript:;" class="btn btn-default js-course-filter" data-url="/course/search?categoryId=0&amp;orderBy=latest" data-type='course'>
+                    <a href="javascript:;" class="btn btn-default js-course-filter"
+                       data-url="/course/search?categoryId=0&amp;orderBy=latest" data-type='course'>
                         最新
                     </a>
-                    <a href="javascript:;" class="btn btn-default js-course-filter" data-url="/course/search?categoryId=0&amp;orderBy=studentNum" data-type='course'>
+                    <a href="javascript:;" class="btn btn-default js-course-filter"
+                       data-url="/course/search?categoryId=0&amp;orderBy=studentNum" data-type='course'>
                         最热
                     </a>
-                    <a href="javascript:;" class="btn btn-default  active js-course-filter" data-url="/course/search?categoryId=0&amp;orderBy=recommendedSeq" data-type='course'>
+                    <a href="javascript:;" class="btn btn-default  active js-course-filter"
+                       data-url="/course/search?categoryId=0&amp;orderBy=recommendedSeq" data-type='course'>
                         推荐
                     </a>
                 </div>
@@ -249,7 +260,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/course/49" target="_blank">
-                                    <img src="../img/lazyload_course.png" alt="第一阶丨篆隶筑基课程" class="img-responsive" data-echo="../img/113822ec81e6915061.png" />
+                                    <img src="../img/lazyload_course.png" alt="第一阶丨篆隶筑基课程" class="img-responsive"
+                                         data-echo="../img/113822ec81e6915061.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -274,7 +286,8 @@
                             <div class="course-img">
 
                                 <a href="/course/50" target="_blank">
-                                    <img src="../img/lazyload_course.png" alt="第二阶丨楷书精进课程" class="img-responsive" data-echo="../img/11384885cf62768555.png" />
+                                    <img src="../img/lazyload_course.png" alt="第二阶丨楷书精进课程" class="img-responsive"
+                                         data-echo="../img/11384885cf62768555.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -298,7 +311,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/course/51" target="_blank">
-                                    <img src="../img/lazyload_course.png" alt="第三阶丨小楷写经课程" class="img-responsive" data-echo="../img/1745564354a4618794.png" />
+                                    <img src="../img/lazyload_course.png" alt="第三阶丨小楷写经课程" class="img-responsive"
+                                         data-echo="../img/1745564354a4618794.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -322,7 +336,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/course/53" target="_blank">
-                                    <img src="../img/lazyload_course.png" alt="第四阶丨自在行草课程" class="img-responsive" data-echo="../img/153124ccb630903020.png" />
+                                    <img src="../img/lazyload_course.png" alt="第四阶丨自在行草课程" class="img-responsive"
+                                         data-echo="../img/153124ccb630903020.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -356,7 +371,9 @@
 
         <div class="container">
             <div class="text-line">
-                <h5><span>环境配置大全</span><div class="line"></div></h5>
+                <h5><span>环境配置大全</span>
+                    <div class="line"></div>
+                </h5>
                 <div class="subtitle">不要再去繁杂的互联网上找抄来抄去的答案了,这里有最清晰最好懂的内容，而且！包教包会</div>
             </div>
 
@@ -366,7 +383,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/open/course/24" target="_blank" target="《小楷写经》报名啦">
-                                    <img src="../img/lazyload_course.png" alt="《小楷写经》报名啦" class="img-responsive" data-echo="../img/104845d8d30d452642.png" />
+                                    <img src="../img/lazyload_course.png" alt="《小楷写经》报名啦" class="img-responsive"
+                                         data-echo="../img/104845d8d30d452642.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -386,7 +404,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/open/course/32" target="_blank" target="暄桐校歌《笔墨是小舟》MV">
-                                    <img src="../img/lazyload_course.png" alt="暄桐校歌《笔墨是小舟》MV" class="img-responsive" data-echo="../img/101634253ade038111.jpg" />
+                                    <img src="../img/lazyload_course.png" alt="暄桐校歌《笔墨是小舟》MV" class="img-responsive"
+                                         data-echo="../img/101634253ade038111.jpg"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -406,7 +425,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/open/course/14" target="_blank" target="【报名指南】暄桐线上课程">
-                                    <img src="../img/lazyload_course.png" alt="【报名指南】暄桐线上课程" class="img-responsive" data-echo="../img/170441970e90588295.png" />
+                                    <img src="../img/lazyload_course.png" alt="【报名指南】暄桐线上课程" class="img-responsive"
+                                         data-echo="../img/170441970e90588295.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -426,7 +446,8 @@
                         <div class="course-item">
                             <div class="course-img">
                                 <a href="/open/course/9" target="_blank" target="一起学习，一起玩耍">
-                                    <img src="../img/lazyload_course.png" alt="一起学习，一起玩耍" class="img-responsive" data-echo="../img/102331342166520764.png" />
+                                    <img src="../img/lazyload_course.png" alt="一起学习，一起玩耍" class="img-responsive"
+                                         data-echo="../img/102331342166520764.png"/>
                                 </a>
                             </div>
                             <div class="course-info">
@@ -456,7 +477,9 @@
     <section class="dynamic-section section-gray">
         <div class="container">
             <div class="text-line gray">
-                <h5><span>疑点问题解答</span><div class="line"></div></h5>
+                <h5><span>疑点问题解答</span>
+                    <div class="line"></div>
+                </h5>
                 <div class="subtitle">把你遇到的问题留言下来,刘老师为你解决,再为你讲懂</div>
             </div>
             <div class="dynamic-section-main row">
@@ -472,14 +495,16 @@
                             <ul class="index-recommend-aricle clearfix">
                                 <li class="">
                                     <a href="/article/24">
-                                        <img src="../img/article_banner_1.jpg" alt="楷书精进，和我们爱的自由" class="img-responsive" data-echo="../img/111219327f25607899.jpg" />
+                                        <img src="../img/article_banner_1.jpg" alt="楷书精进，和我们爱的自由" class="img-responsive"
+                                             data-echo="../img/111219327f25607899.jpg"/>
                                         <div class="image-overlay"></div>
                                         <div class="title">楷书精进，和我们爱的自由</div>
                                     </a>
                                 </li>
                                 <li class="last">
                                     <a href="/article/23">
-                                        <img src="../img/article_banner_2.jpg" alt="林曦老师｜演讲合辑" class="img-responsive" data-echo="../img/1805073428e8470475.jpg" />
+                                        <img src="../img/article_banner_2.jpg" alt="林曦老师｜演讲合辑" class="img-responsive"
+                                             data-echo="../img/1805073428e8470475.jpg"/>
                                         <div class="image-overlay"></div>
                                         <div class="title">林曦老师｜演讲合辑</div>
                                     </a>
@@ -487,15 +512,20 @@
                             </ul>
                             <ul class="index-new-article ">
                                 <li class=" clearfix"><i class="es-icon es-icon-dot color-primary mrs"></i>
-                                    <a class="link-dark" href="/article/24" title="楷书精进，和我们爱的自由">楷书精进，和我们爱的自由</a> <span class="date">09-29</span></li>
+                                    <a class="link-dark" href="/article/24" title="楷书精进，和我们爱的自由">楷书精进，和我们爱的自由</a> <span
+                                            class="date">09-29</span></li>
                                 <li class=" clearfix"><i class="es-icon es-icon-dot color-primary mrs"></i>
-                                    <a class="link-dark" href="/article/23" title="林曦老师｜演讲合辑">林曦老师｜演讲合辑</a> <span class="date">09-21</span></li>
+                                    <a class="link-dark" href="/article/23" title="林曦老师｜演讲合辑">林曦老师｜演讲合辑</a> <span
+                                            class="date">09-21</span></li>
                                 <li class=" clearfix"><i class="es-icon es-icon-dot color-primary mrs"></i>
-                                    <a class="link-dark" href="/article/18" title="写字的人 | 不爱自己，我拿什么爱你呢？">写字的人 | 不爱自己，我拿什么爱你呢？</a> <span class="date">04-16</span></li>
+                                    <a class="link-dark" href="/article/18" title="写字的人 | 不爱自己，我拿什么爱你呢？">写字的人 |
+                                        不爱自己，我拿什么爱你呢？</a> <span class="date">04-16</span></li>
                                 <li class=" clearfix"><i class="es-icon es-icon-dot color-primary mrs"></i>
-                                    <a class="link-dark" href="/article/22" title="写字的人 | 我的进步奖">写字的人 | 我的进步奖</a> <span class="date">04-17</span></li>
+                                    <a class="link-dark" href="/article/22" title="写字的人 | 我的进步奖">写字的人 | 我的进步奖</a> <span
+                                            class="date">04-17</span></li>
                                 <li class="last clearfix"><i class="es-icon es-icon-dot color-primary mrs"></i>
-                                    <a class="link-dark" href="/article/17" title="写字的人 | “随性的，但也真喜欢”">写字的人 | “随性的，但也真喜欢”</a> <span class="date">04-13</span></li>
+                                    <a class="link-dark" href="/article/17" title="写字的人 | “随性的，但也真喜欢”">写字的人 |
+                                        “随性的，但也真喜欢”</a> <span class="date">04-13</span></li>
                             </ul>
                         </div>
                     </div>
@@ -509,7 +539,8 @@
             <div class="container">
                 Powered by
                 <a href="/" target="_blank">毫秒学院</a>
-                <script src="../js/entrance.js" class="zhiCustomBtn" id="zhichiScript" data-args="属性名1=属性值1&属性名2=属性值2"></script>
+                <script src="../js/entrance.js" class="zhiCustomBtn" id="zhichiScript"
+                        data-args="属性名1=属性值1&属性名2=属性值2"></script>
             </div>
         </div>
     </footer>
@@ -521,30 +552,33 @@
 <div id="attachment-modal" class="modal"></div>
 
 <script>
-if (typeof app === 'undefined') {
-var app = {};
-}
-app.version = '8.2.4_19';
-app.httpHost = 'https://www.haomiaoxy.com';
-app.basePath = 'https://sce4a8b6c0d93v-sb-qn.qiqiuyun.net';
-app.theme = 'jianmo';
+    if (typeof app === 'undefined') {
+        var app = {};
+    }
+    app.version = '8.2.4_19';
+    app.httpHost = 'https://www.haomiaoxy.com';
+    app.basePath = 'https://sce4a8b6c0d93v-sb-qn.qiqiuyun.net';
+    app.theme = 'jianmo';
 
 
-var CLOUD_FILE_SERVER = "";
+    var CLOUD_FILE_SERVER = "";
 
-app.config = {"api":{"weibo":{"key":""},"qq":{"key":""},"douban":{"key":""},"renren":{"key":""}},"loading_img_path":"\/\/sce4a8b6c0d93v-sb-qn.qiqiuyun.net\/assets\/img\/default\/loading.gif?version=8.2.4_19"};
+    app.config = {
+        "api": {"weibo": {"key": ""}, "qq": {"key": ""}, "douban": {"key": ""}, "renren": {"key": ""}},
+        "loading_img_path": "\/\/sce4a8b6c0d93v-sb-qn.qiqiuyun.net\/assets\/img\/default\/loading.gif?version=8.2.4_19"
+    };
 
-app.arguments = {};
+    app.arguments = {};
 
-app.scripts = null;
+    app.scripts = null;
 
-app.fileSingleSizeLimit = 3;
+    app.fileSingleSizeLimit = 3;
 
-app.uploadUrl = '/file/upload';
-app.imgCropUrl = '/file/img/crop';
-app.lessonCopyEnabled = '1';
-app.cloudSdkCdn = '';
-app.lang = 'zh_CN';
+    app.uploadUrl = '/file/upload';
+    app.imgCropUrl = '/file/img/crop';
+    app.lessonCopyEnabled = '1';
+    app.cloudSdkCdn = '';
+    app.lang = 'zh_CN';
 </script>
 
 <script src=../js/translator.min.js"></script>
@@ -558,18 +592,52 @@ app.lang = 'zh_CN';
 <script src="../js/index_2.js "></script>
 <script src="../js/perfect-scrollbar.js "></script>
 <script src="../js/index_3.js "></script>
+<script src="../layer-v3.1.1/layer/layer.js"></script>
 
 <script type="text/javascript ">
     window.seajsBoot && window.seajsBoot();
 </script>
 <script>
     var _param = {
-        url : '/index/getUserInfo',
-        type : 'POST',
-        success : function (data) {
+        url: '/index/getUserInfo',
+        type: 'POST',
+        success: function (data) {
         }
     };
     $.ajax(_param);
+
+    function advice() {
+        layer.prompt({
+            formType: 0,
+            value: '',
+            title: '还想学什么内容或者对我们的建议可以提交给我们',
+            btn: ['提交'],
+            btnAlign: 'c'
+        }, function (value, index) {
+            var _param = {
+                url: '/index/getAdvice',
+                data: {
+                    'content': value
+                },
+                type: 'POST',
+                dataType: 'json',
+                beforeSend: function () {
+                    layer.load();
+                },
+                success: function (result) {
+                    if (result == 1) {
+                        alert('成功');
+                    }
+                }
+            };
+            $.ajax(_param);
+            // layer.close(index);
+        });
+    }
+
+    function home() {
+        window.location.reload();
+    }
 </script>
 </body>
 </html>

@@ -3,14 +3,19 @@ package com.millisecondschool.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.millisecondschool.dao.TUserVisitMapper;
 import com.millisecondschool.entity.BaiDuEntity;
+import com.millisecondschool.entity.TAdvice;
 import com.millisecondschool.entity.TUserVisit;
+import com.millisecondschool.service.TAdviceService;
 import com.millisecondschool.service.TUserVisitService;
+import com.millisecondschool.utils.DateUtils;
 import com.millisecondschool.utils.HttpClientUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.json.JsonObject;
@@ -32,13 +37,16 @@ public class IndexController {
     @Autowired
     private TUserVisitService tUserVisitService;
 
+    @Autowired
+    private TAdviceService tAdviceService;
+
     @RequestMapping("/first")
     public ModelAndView first() {
         ModelAndView view = new ModelAndView("index");
         return view;
     }
 
-    @RequestMapping("/getUserInfo")
+    @RequestMapping(value = "/getUserInfo", method = RequestMethod.POST)
     public void getUserInfo(HttpServletRequest request) {
         TUserVisit userVisit = new TUserVisit();
         String ip = request.getRemoteAddr();
@@ -53,8 +61,7 @@ public class IndexController {
             //电脑
             userVisit.setVisitAgent(3);
         }
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        userVisit.setVisitTime(dateFormat.format(new Date()));
+        userVisit.setVisitTime(DateUtils.getCurrentDateTime());
         String url = baiduIpApi + "?ip=" + ip + "&ak=" + baiduAK;
         try {
             JSONObject jsonObject = HttpClientUtils.doGet(url);
@@ -75,6 +82,23 @@ public class IndexController {
             e.printStackTrace();
             log.error("百度地图api调用异常" + e);
         }
+    }
+
+    @RequestMapping(value = "/getAdvice", method = RequestMethod.POST)
+    @ResponseBody
+    public int getAdvice(String content, HttpServletRequest request) {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        String ip = request.getRemoteAddr();
+        log.info(ip + "留下建议" + content);
+        TAdvice tAdvice = new TAdvice();
+        tAdvice.setContent(content);
+        tAdvice.setCreateTime(DateUtils.getCurrentDateTime());
+        tAdvice.setIp(ip);
+        return tAdviceService.insertSelective(tAdvice);
     }
 
 }
