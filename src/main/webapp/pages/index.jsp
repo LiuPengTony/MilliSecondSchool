@@ -131,27 +131,27 @@
                     <ul class="nav navbar-nav">
 
                         <li class="">
-                            <a href="#" onclick="home()">首页 </a>
+                            <a href="#" onclick="home()">首页</a>
                         </li>
                         <li class="nav-hover">
                             <a href="#">课程 <b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="#" target="_blank">干货代码教程</a>
+                                    <a href="#">干货代码教程</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">环境配置大全</a>
+                                    <a href="#">环境配置大全</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">疑点问题解答</a>
+                                    <a href="#">疑点问题解答</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-hover">
-                            <a href="#" target="_blank">参加培训</a>
+                            <a href="#">参加培训</a>
                         </li>
                         <li class="nav-hover">
-                            <a href="#" target="_blank">关于毫秒</a>
+                            <a href="#">关于毫秒</a>
                         </li>
                         <li class="nav-hover">
                             <a href="#" onclick="advice()">您的建议</a>
@@ -173,21 +173,21 @@
                         <a href="#">课程 <b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="#" target="_blank">干货代码教程</a>
+                                <a href="#">干货代码教程</a>
                             </li>
                             <li>
-                                <a href="#" target="_blank">环境配置大全</a>
+                                <a href="#">环境配置大全</a>
                             </li>
                             <li>
-                                <a href="#" target="_blank">疑点问题解答</a>
+                                <a href="#">疑点问题解答</a>
                             </li>
                         </ul>
                     </li>
                     <li class="">
-                        <a href="#" target="_blank">参加培训</a>
+                        <a href="#">参加培训</a>
                     </li>
                     <li class="">
-                        <a href="#" target="_blank">关于毫秒</a>
+                        <a href="#">关于毫秒</a>
                     </li>
                     <li class="">
                         <a href="#" onclick="advice()">您的建议</a>
@@ -267,14 +267,14 @@
                             <div class="course-info">
                                 <div class="title">
                                     <a class="link-dark" href="/course/49" target="_blank">
-                                        第一阶丨篆隶筑基课程
+                                        第一节丨junit单元测试课程
                                     </a>
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>245</span>
                                     <span class="course-price-widget">
                                       <span class="price">
-                                          3280元
+                                          免费
                                       </span>
                                     </span>
                                 </div>
@@ -293,14 +293,14 @@
                             <div class="course-info">
                                 <div class="title">
                                     <a class="link-dark" href="/course/50" target="_blank">
-                                        第二阶丨楷书精进课程
+                                        第二节丨多线程课程
                                     </a>
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>48</span>
                                     <span class="course-price-widget">
                                       <span class="price">
-                                          3280元
+                                          免费
                                       </span>
                                     </span>
                                 </div>
@@ -318,14 +318,14 @@
                             <div class="course-info">
                                 <div class="title">
                                     <a class="link-dark" href="/course/51" target="_blank">
-                                        第三阶丨小楷写经课程
+                                        第三节丨io流课程
                                     </a>
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>0</span>
                                     <span class="course-price-widget">
                                       <span class="price">
-                                          3280元
+                                          VIP
                                       </span>
                                     </span>
                                 </div>
@@ -343,14 +343,14 @@
                             <div class="course-info">
                                 <div class="title">
                                     <a class="link-dark" href="/course/53" target="_blank">
-                                        第四阶丨自在行草课程
+                                        第四节丨事务控制课程
                                     </a>
                                 </div>
                                 <div class="metas clearfix">
                                     <span class="comment"><i class="es-icon es-icon-textsms"></i>0</span>
                                     <span class="course-price-widget">
                                       <span class="price">
-                                          3280元
+                                          VIP
                                       </span>
                                     </span>
                                 </div>
@@ -360,7 +360,7 @@
                 </div>
             </div>
             <div class="section-more-btn">
-                <a href="/course/explore" class="btn btn-default btn-lg">
+                <a href="/index/explore" class="btn btn-default btn-lg">
                     更多课程 <i class="mrs-o es-icon es-icon-chevronright"></i>
                 </a>
             </div>
@@ -600,7 +600,9 @@
 <script>
     var _param = {
         url: '/index/getUserInfo',
+        data: {},
         type: 'POST',
+        dataType: 'json',
         success: function (data) {
         }
     };
@@ -610,7 +612,7 @@
         layer.prompt({
             formType: 0,
             value: '',
-            title: '还想学什么内容或者对我们的建议可以提交给我们',
+            title: '期待您的建议',
             btn: ['提交'],
             btnAlign: 'c'
         }, function (value, index) {
@@ -621,13 +623,10 @@
                 },
                 type: 'POST',
                 dataType: 'json',
-                beforeSend: function () {
-                    layer.load();
-                },
                 success: function (result) {
-                    if (result == 1) {
-                        alert('成功');
-                    }
+                    layer.msg('提交成功,谢谢建议', {time: 800}, function () {
+                        layer.closeAll();
+                    });
                 }
             };
             $.ajax(_param);
@@ -638,6 +637,8 @@
     function home() {
         window.location.reload();
     }
+
+    layer.msg('不要犹豫,从这一毫秒开始努力', {offset:'50%'},{time: 2000}, function () {});
 </script>
 </body>
 </html>

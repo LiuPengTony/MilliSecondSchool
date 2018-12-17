@@ -33,6 +33,6 @@ public class TUserVisitServiceImpl implements TUserVisitService {
             log.error("根据ip获取用户地址落表失败" + record);
             e.printStackTrace();
         }
-        return 0;
+        return i;
     }
 }

@@ -47,7 +47,8 @@ public class IndexController {
     }
 
     @RequestMapping(value = "/getUserInfo", method = RequestMethod.POST)
-    public void getUserInfo(HttpServletRequest request) {
+    public int getUserInfo(HttpServletRequest request) {
+        int i = 0;
         TUserVisit userVisit = new TUserVisit();
         String ip = request.getRemoteAddr();
         userVisit.setIp(ip);
@@ -77,21 +78,17 @@ public class IndexController {
             } else {
                 log.info("百度地图api调用结果返回null");
             }
-            tUserVisitService.insertSelective(userVisit);
+            i = tUserVisitService.insertSelective(userVisit);
         } catch (Exception e) {
             e.printStackTrace();
             log.error("百度地图api调用异常" + e);
         }
+        return i;
     }
 
     @RequestMapping(value = "/getAdvice", method = RequestMethod.POST)
     @ResponseBody
     public int getAdvice(String content, HttpServletRequest request) {
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         String ip = request.getRemoteAddr();
         log.info(ip + "留下建议" + content);
         TAdvice tAdvice = new TAdvice();
@@ -99,6 +96,12 @@ public class IndexController {
         tAdvice.setCreateTime(DateUtils.getCurrentDateTime());
         tAdvice.setIp(ip);
         return tAdviceService.insertSelective(tAdvice);
+    }
+
+    @RequestMapping("/explore")
+    public ModelAndView explore(){
+        ModelAndView view = new ModelAndView("");
+        return view;
     }
 
 }
